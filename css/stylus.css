@@ -1,0 +1,369 @@
+
+@charset "UTF-8 pt-BR";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --principal-color:  #004103;
+}
+.container{
+    margin-bottom: 5%;
+}
+h1, h4, h2
+{
+    color: var(--principal-color);
+    margin-top: 7%;
+    margin-bottom: 3%;
+    vertical-align: middle;
+    text-align: center;
+
+}
+h3{
+    color: var(--principal-color);
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+p{
+   text-align: justify;
+}
+#menu1{
+    margin: 0% auto auto 45%;
+}
+
+.nav-link{
+    color: white;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+footer{
+    text-decoration: none;
+    height: 50px;
+    background-color:var(--principal-color); 
+
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid #333;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+
+}
+#linkMovi {
+    color: #FFF;
+    text-decoration:none;
+}
+#linkMovi:hover {
+    color: #ef651b;
+    
+}
+
+/* index */
+
+
+.imgTipoR{
+    margin: 25% 0% 0% 40%;
+}
+.imgTipoP{
+    margin: 10% 0% 0% 0%;
+    width: 100%;
+}
+.titulo{
+    display: table;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.titulo1{
+    margin: 0% 0% 0% 0%;
+}
+
+#colIndLe{
+    margin: 0% 0% 0% 0%;
+   
+}
+#colIndCe{
+    margin: 0% 0% 0% 25%;
+    
+}
+#colIndRi{
+    margin: 0% 0% 0% 25%;
+   
+}
+.input-group-text.index{
+    width: 60px;
+}
+
+.pitch{
+    width: 35%;
+}
+.text-muted{
+    color: white;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.article, .input, .output{ 
+    width: 100%; 
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+}
+.section{ 
+    width: 100%; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+.figure{
+    margin: 14% 25% 0% 25%;
+}
+.fontesimg{
+
+    font-size: 0.5em;
+}
+#tipoRosca{
+    width: 50%;
+    margin-bottom: 3% ;
+}
+#tipoRosca1{
+    margin-bottom: 5%;
+}
+#tipoMaquina{
+    width: 50%;
+    margin-bottom: 3% ;
+}
+#calHelice{
+    margin-left: -85%;
+}
+#perfilSimples{
+    
+    display: none;
+}
+#perfilRolo{
+
+    display: block;
+}
+
+/* Angulo de helica */
+.angulo{
+    
+    margin: 15% 0% 0% 30%;
+}
+
+#oculta{
+
+    display: none;
+    margin-top: 6%;
+}
+
+#result{ 
+    align-items: center;
+    display: none;
+}
+#answerRoll, #answerHelice,#answerConstatRoll,#answerPrimitivo,#answerSobreRolo,#answerConstantAnel,#answerCorrecaoHelice {
+    width: 40%;
+    align-items: center;    
+    border: 1px solid ;
+    margin-bottom: 1%;
+    padding: 15px 0px 0px 20px;
+   
+}
+.engrenagens{
+    width: 100%;
+    align-items: center;    
+    border: 1px solid ;
+    margin-bottom: 1%;
+    padding: 15px 0px 0px 20px;
+   
+}
+
+#btnSubmit{
+    margin-top: 10%;
+} 
+
+#btn_rosca{
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 670px) {
+
+    .container{
+        width: 100%;
+        margin-bottom: 20%;
+    }
+    
+    h1, h4, h2{
+        color: var(--principal-color);
+        margin-top: 7%;
+        margin-bottom: 3%;
+        font-size: 1.5em;
+        text-align: center;
+
+    }
+    h3{
+        color: var(--principal-color);
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+    }
+    .imgTipoR{
+        width: 100%;
+        margin: auto;
+    }
+
+    p{
+    text-align: justify;
+    }
+    #menu1{
+        margin: auto;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .nav-link{
+        color: white;
+        font-size: 1.5em;
+        font-weight: 900;
+    }
+
+    /* index */
+
+
+   
+    .imgTipoP{
+        margin: 10% 10% 0% 0%;
+        width: 100%;
+    }
+    .titulo{display: table;}
+    .titulo1{
+        margin: 10% 0% 0% 0%;
+    }
+    .titulo2{
+        margin: 00% 0% 0% 20%;
+    }
+    .titulo3{
+        margin: 0% 0% 0% 35%;
+    }
+    #colIndLe{
+        margin: 10% 0% 0% 20%;
+        width: 100%;
+        
+    }
+    #colIndCe{
+        margin: 0% 0% 0% 20%;
+        width: 100%;
+        
+    }
+    #colIndRi{
+        margin: 0% 0% 10% 0%;
+        width: 100%;
+        
+    }
+    .input-group-text .index{
+        width: 50px;
+
+    }
+
+    .pitch{
+        width: 50%;
+    }
+    .text-muted{
+        color: white;
+        font-size: 2em;
+        font-weight: 900;
+    }
+
+    .article, .input, .output{ 
+        width: 100%; 
+        margin-left: auto;
+        margin-right: auto; 
+        text-align: center;
+    }
+    .section{ 
+        width: 100%; 
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    .figure{
+        margin: 14% 25% 0% 25%;
+    }
+    .fontesimg{
+
+        font-size: 0.5em;
+    }
+
+    #tipoRosca{
+        width: 60%;
+        margin:0% auto 10% auto ;
+    }
+    #tipoRosca1{
+        width: 60%;
+        margin:0% auto 10% auto ;
+    }
+
+
+    #tipoMaquina{
+        width: 50%;
+        margin:0% auto 10% auto ;
+    }
+
+
+    #calHelice{
+        margin-left: -85%;
+    }
+    .angulo{
+        width: 100%;
+    }
+    #btnRoll{
+
+        margin: 10% 0% 10% 20%;
+    }
+    #btnEng{
+
+        margin: 10% 0% 10% 20%;
+    }
+
+
+    #perfilSimples, #perfilRolo{
+        margin: 10% 0% 0% 20%;
+    }
+  
+    #respRoletePasso p{
+ 
+        text-align: center;
+       
+
+    }
+    .angulo{
+    
+        width: 60%;
+        margin: 0% 0% 0% 20%;
+    }
+
+    #answerRoll, #answerHelice,#answerConstatRoll,#answerPrimitivo,#answerSobreRolo,#answerConstantAnel,#answerCorrecaoHelice {
+        width: 100%;
+        border: 1px solid ;
+        margin-bottom: 5%;
+        padding: 15px 0px 0px 20px;
+        
+    }
+    .engrenagens{
+        width: 100%;
+        border: 1px solid ;
+        margin-bottom: 5%;
+        padding: 15px 0px 0px 20px;
+    }
+    #rosca1, #rosca2, #rosca3{
+        margin: 0% 0% 0% 20%;
+        width: 80%; /* Altere para o valor da largura desejada. */
+    }
+    #tipoRosca1{
+        width: 60%;
+        margin-right: 35%;
+    }
+
+  }
