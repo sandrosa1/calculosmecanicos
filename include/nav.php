@@ -33,7 +33,10 @@
                     <a id="lk5" class="nav-link" href="calcular-sobre-rolo.php">Sobre Rolo</a>
                 </li>
                 <li class="nav-item">
-                    <a id="lk6" class="nav-link" href="calcular-engrenagens-para rosca.php">Engrenagens</a>
+                    <a id="lk6" class="nav-link" href="calcular-engrenagens-para-rosca.php">Engrenagens</a>
+                </li>
+                <li class="nav-item">
+                    <a id="lk7" class="nav-link" href="calcula-sobre-rolo-para-cone.php">Sobre Rolo Cone</a>
                 </li>
             </ul>
         </div>

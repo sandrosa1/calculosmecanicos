@@ -1,4 +1,4 @@
-<?php include 'include/nav.php'; ?>
+<?php include 'include/nav.php';?>
 
 <div class="container">
 <h1>Calcula o rolete ideal</h1>

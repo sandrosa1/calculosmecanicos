@@ -189,6 +189,38 @@ footer{
     margin-bottom: 30px;
 }
 
+/* cone */
+#ezero, #grau, #minutos, #segundos,#rolete, #padrao{
+    border:solid 2px var(--principal-color);
+}
+#ezero, #rolete, #padrao{
+    max-width: 170px;
+}
+
+#grau, #minutos, #segundos{
+    max-width: 40px;
+}
+.interna {
+    margin: 0 auto;
+    width: 50%; /* Valor da Largura */
+}
+.botaoPadrao{
+    background-color: var(--principal-color);
+    border: 0px;
+    border-radius: 5px;
+    width: 80px;
+    color: #FFF;
+    font-weight: 600;
+    font-size: medium;
+    margin: 10px auto;
+
+}
+.botaoPadrao:hover{
+    background-color: #159c1c;
+    font-weight: 600;
+    color: var(--principal-color);
+
+}
 @media only screen and (max-width: 670px) {
 
     .container{
@@ -364,6 +396,13 @@ footer{
     #tipoRosca1{
         width: 60%;
         margin-right: 35%;
+    }
+    
+    .label{
+        margin: 5px auto;
+        font-weight: 700;
+        font-size: medium;
+        color: var(--principal-color);
     }
 
   }

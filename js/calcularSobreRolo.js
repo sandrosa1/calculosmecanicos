@@ -88,8 +88,8 @@ export function calculateTotal(parameters, answer){
     let roll = rollIdeal(passo,ang1,ang2)
     let heliceDegrees = calHeliceDegree(parameters)
     let helice = calHelice(parameters)
-    let constant = constantRoll(parameters,ang1,ang2)
     let correcaoHelice = correcaoDeHelice(parameters,helice, ang )
+    let constant = constantRoll(parameters,ang1,ang2,correcaoHelice)
     let rollMax = roll + (roll / 8)
     let rollMin = roll - (roll / 8)
     if(rolete > rollMax || roll < rollMin){
@@ -127,12 +127,12 @@ function correcaoDeHelice(obj,hel,ang){
   
 }   
 
-function constantRoll(obj,a1,a2){
+function constantRoll(obj,a1,a2,co){
 
     let resSeno =  Math.sin(Math.radians(((a1 + a2) /2)))
     let resCossen = Math.cos(Math.radians(((a1 - a2) /2)))
     let resTang = ( Math.tan(Math.radians( a1 ))) + ( Math.tan(Math.radians( a2 )))
-    let constante = (obj[4]*(1 + (resCossen / resSeno ))) - (obj[0] /resTang)
+    let constante = ((obj[4]*(1 + (resCossen / resSeno ))) - (obj[0] /resTang) + co)
     
     return constante                            
 
