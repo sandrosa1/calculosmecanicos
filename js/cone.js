@@ -52,14 +52,14 @@ function calculaSobreRoloUm(padrao,anguloDecimal,sobreRoloeZero){
  return roloUm
 
 }
-var an = Number(document.getElementById('grau').value)
-var gu = Number(document.getElementById('minutos').value)
-var lo = Number(document.getElementById('segundos').value)
-var padraos = Number(document.getElementById('padrao').value)
-var roletes = Number(document.getElementById('rolete').value)
-var ezeros = Number(document.getElementById('ezero').value)
 
 calculaCone.addEventListener('click',function () {
+  var an = Number(document.getElementById('grau').value)
+  var gu = Number(document.getElementById('minutos').value)
+  var lo = Number(document.getElementById('segundos').value)
+  var padraos = Number(document.getElementById('padrao').value)
+  var roletes = Number(document.getElementById('rolete').value)
+  var ezeros = Number(document.getElementById('ezero').value)
   let constante 
   let sobreRoloeZero 
   let sobreRoloUm 
