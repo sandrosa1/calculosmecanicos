@@ -38,6 +38,9 @@
                 <li class="nav-item">
                     <a id="lk7" class="nav-link" href="calcula-sobre-rolo-para-cone.php">Sobre Rolo Cone</a>
                 </li>
+                <li class="nav-item">
+                    <a id="lk7" class="nav-link" href="paginaTeste.php">Pagina teste</a>
+                </li>
             </ul>
         </div>
     </div>
