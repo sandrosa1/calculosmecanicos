@@ -31,7 +31,7 @@ function tanDeg(deg) {
 }
 
 function calculaConstanteSobreRoloConico(angulo, rolete){
-  alert("chamou")
+  //alert("chamou")
         
         let constante = (90 + angulo)/2
         constante = tanDeg(constante)
