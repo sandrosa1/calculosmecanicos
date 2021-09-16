@@ -3,7 +3,7 @@
     <div class="row">
         <div class=" col-md-6 article">
             <article>
-                <h1>ROSCAS1</h1>
+                <h1>ROSCAS</h1>
                 <p>Nem sempre os parafusos usados nas máquinas são padronizados (normalizados) e, muitas vezes, não se
                     encontra o tipo
                     de parafuso desejado no comércio.</p>
