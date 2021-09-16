@@ -84,7 +84,7 @@ calculaCone.addEventListener('click',function () {
   }
 
 
-  if(!insNan(an) || gu == "" || lo == ""){
+  if(!isNan(an) || gu == "" || lo == ""){
     existeErroAngulo = true
     existeErro = true
     respAngulo.style.color = 'red'
