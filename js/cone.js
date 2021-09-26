@@ -83,8 +83,7 @@ calculaCone.addEventListener('click',function () {
     respPadrao.innerHTML = 'Informe o padrão!'
   }
 
-
-  if(!isNan(an) || gu == "" || lo == ""){
+  if(an === '' || gu === '' || lo === ''){
     existeErroAngulo = true
     existeErro = true
     respAngulo.style.color = 'red'
